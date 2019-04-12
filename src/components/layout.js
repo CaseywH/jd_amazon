@@ -5,18 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import "../sass/layout.scss"
-// import "./layout.css"
+import '../sass/layout.scss';
 
-const Layout = ({ children }) => {
-  return <React.Fragment>{children}</React.Fragment>
-}
+const Layout = ({ children }) => <React.Fragment>{children}</React.Fragment>;
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
