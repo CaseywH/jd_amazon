@@ -1,36 +1,49 @@
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url(../images/lost-co-178990-unsplash.jpg) center/cover fixed no-repeat;
-  height: 100vh;
+  height: 40%;
   color: white;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   &__heading {
-    width: 60%;
-    height: 40%;
+    width: 100%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding-bottom: 4rem;
   }
 
   &__text--main {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    width: 100%;
     font-weight: 100;
     color: whitesmoke;
     font-size: 5rem;
+    padding-bottom: 2rem;
   }
+
+  &__text--sub {
+    font-size: 2rem;
+  }
+
   &__links {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   &__links--text {
+    text-align: center;
+    border: 1px solid whitesmoke;
+    width: 20rem;
     color: whitesmoke;
     text-decoration: none;
     font-size: 3rem;
+    margin: 0 2rem;
+    padding: 1rem 1.5rem;
+    transition: all 0.8s;
+    &:hover {
+      color: black;
+      background: whitesmoke;
+      position: relative;
+      top: -3px;
+    }
   }
 }
