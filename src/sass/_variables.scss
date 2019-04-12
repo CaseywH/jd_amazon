@@ -1,2 +1,6 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: red;
+@font-face {
+  font-family: "Eczar";
+  src: url("https://fonts.googleapis.com/css?family=Eczar");
+  font-style: normal;
+  font-weight: 400;
+}
