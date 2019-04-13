@@ -17,7 +17,7 @@ export default class HeaderLinks extends Component {
             path: 'https://www.twitter.com'
           },
           {
-            id: 0,
+            id: 2,
             icon: <FaInstagram className='icon instagram-icon'/>,
             path: 'https://www.instagram.com'
           },

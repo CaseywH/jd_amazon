@@ -1,5 +1,20 @@
+.hero__container {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../images/lost-co-178990-unsplash.jpg) center/cover fixed no-repeat;
+  z-index: -10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .hero {
   height: 80vh;
+  width: 60%;
   color: white;
   display: flex;
   justify-content: center;
@@ -8,7 +23,7 @@
 
   @media (max-width: 700px) {
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 8rem;
   }
 
   &__heading {
@@ -38,6 +53,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     @media (max-width: 700px) {
       flex-direction: column;
     }

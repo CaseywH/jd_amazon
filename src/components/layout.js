@@ -7,10 +7,16 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import HeaderLinks from './HeaderLinks';
 
 import '../sass/layout.scss';
 
-const Layout = ({ children }) => <React.Fragment>{children}</React.Fragment>;
+const Layout = ({ children }) => (
+  <React.Fragment>
+  <HeaderLinks />
+  {children}
+</React.Fragment>
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

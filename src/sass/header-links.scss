@@ -7,11 +7,15 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    z-index: 10;
   }
 
   & a {
     font-size: 4rem;
     color: whitesmoke;
     padding: 1.5rem;
+    @media (max-width: 700px) {
+      font-size: 3rem;
+    }
   }
 }
