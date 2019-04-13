@@ -16,11 +16,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 1rem;
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
   height: 30rem;
   width: 25rem;
+  justify-self: center;
   background: rgb(245, 245, 245);
   border: 1px solid black;
   border-radius: 1rem;
