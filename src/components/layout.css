@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo);
+body {
+  font-family: "Cairo", sans-serif;
+}
+.indexpage {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../images/lost-co-178990-unsplash.jpg) center/cover fixed no-repeat;
+  z-index: -10;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+.twitter:hover {
+  color: #38a1f3;
+}
+
+.instagram:hover {
+  color: #e1306c;
+}
