@@ -18,9 +18,9 @@ export default function Hero() {
 }
 
 const HeroWrapper = styled.div`
-  height: 80%;
+  height: 70%;
   width: 60%;
-  margin: 10% auto 15% auto;
+  margin: 10% auto 20% auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
