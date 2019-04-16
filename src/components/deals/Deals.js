@@ -17,8 +17,8 @@ const DealsWrapper = styled.div`
   width: 75vw;
   margin: 10vh 10vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
   }
