@@ -57,6 +57,7 @@ const SocialMediaIcons = styled.div`
     padding-right:.75rem;
   @media (max-width: 700px) {
     font-size: 2rem;
+    padding: 0 .75rem;
   }
 `
 
